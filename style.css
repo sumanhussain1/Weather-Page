@@ -1,0 +1,37 @@
+body {
+    padding-top: 5%;
+    background-image: url("https://i.pinimg.com/originals/dd/d2/f2/ddd2f2970877614132fe253d19a7dad8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h2 {
+    text-align: right;
+  }
+  
+  .movement {
+    text-align: right;
+  }
+  
+  .sun-cloud {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15%;
+  }
+  
+  .clouds {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .dates {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .temperature {
+    text-align: center;
+    font-weight: bold;
+  }
+  

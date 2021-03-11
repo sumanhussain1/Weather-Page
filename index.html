@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <title>Weather</title>
+    <script src="script.js"></script>
+</head>
+    
+    <style>
+  body {
+    padding-top: 5%;
+    background-image: url("https://i.pinimg.com/originals/dd/d2/f2/ddd2f2970877614132fe253d19a7dad8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h2 {
+    text-align: right;
+  }
+  
+  .movement {
+    text-align: right;
+  }
+  
+  .sun-cloud {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15%;
+  }
+  
+  .clouds {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .dates {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .temperature {
+    text-align: center;
+    font-weight: bold;
+  }
+     
+      </style>  
+  
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <input
+          type="search"
+          placeholder="City Name"
+          autocomplete="on"
+          autofocus="on"
+          id="city-input"
+        />
+        <input type="submit" value="Search" /> 🔎
+      </form>
+      <br />
+      <h1>
+        Birmingham, UK
+      </h1>
+      <h3 class="date">
+        2021
+        <br>
+         📍
+      </br>
+      </h3>
+
+      <h2>
+        4°C | 36°F
+      </h2>
+
+
+      <img
+        src="https://media2.giphy.com/media/l0jExU1nw7KvVtxudC/source.gif"
+        alt="sun and cloud"
+        width="300"
+        class="sun-cloud"
+      />
+
+      <div class="row">
+        <div class="col">
+          <div class="border bg-light">
+            <p class="dates">Saturday</p>
+            <img
+              src="https://media4.giphy.com/media/loUqCMSfXHcsVb3cUZ/giphy.gif"
+              alt="sun"
+              width="200"
+              height=""
+            />
+            <br />
+            <p class="temperature">1°C | 33°F</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="border bg-light">
+            <p class="dates">Sunday</p>
+            <img
+              src="https://gifdownload.net/wp-content/uploads/2019/01/cloud-loading-gif-5.gif"
+              alt="clouds"
+              width="200"
+              class="clouds"
+            />
+            <br />
+            <p class="temperature">5°C | 41°F</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="border bg-light">
+            <p class="dates">Monday</p>
+            <img
+              src="https://media4.giphy.com/media/loUqCMSfXHcsVb3cUZ/giphy.gif"
+              alt="sun"
+              width="200"
+              height=""
+            />
+            <br />
+            <p class="temperature">0°C | 33°F</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="border bg-light">
+            <p class="dates">Tuesday</p>
+            <img
+              src="https://media0.giphy.com/media/241KsB3a96ZDL4MekL/source.gif"
+              alt="raining cloud"
+              width="200"
+              height=""
+              class="raining"
+            />
+            <br />
+            <p class="temperature">1°C | 33°F</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="border bg-light">
+            <p class="dates">Wednesday</p>
+            <img
+              src="https://gifdownload.net/wp-content/uploads/2019/01/cloud-loading-gif-5.gif"
+              alt="clouds"
+              width="200"
+            />
+            <br />
+            <p class="temperature">3°C | 35°F</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
